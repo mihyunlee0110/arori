@@ -1,0 +1,65 @@
+/*indigo reset.css*/
+
+
+#indigo div, #indigo span, #indigo h1, #indigo h2, #indigo h3, #indigo h4, #indigo h5, #indigo h6, #indigo p, #indigo blockquote, #indigo pre, #indigo abbr, #indigo address, #indigo cite, #indigo code, #indigo del, #indigo dfn, #indigo em, #indigo img, #indigo ins, #indigo kbd, #indigo q, #indigo samp, #indigo small, #indigo strong, #indigo sub, #indigo sup, #indigo var, #indigo b, #indigo i, #indigo dl, #indigo dt, #indigo dd, #indigo ol, #indigo ul, #indigo li, #indigo fieldset, #indigo form, #indigo label, legend, #indigo table, #indigo caption, #indigo tbody, #indigo tfoot, #indigo thead, #indigo tr, #indigo th, #indigo td, #indigo article, #indigo aside, #indigo canvas, #indigo details, #indigo figcaption, #indigo figure, #indigo hgroup, #indigo menu, #indigo nav, #indigo section, #indigo summary, #indigo time, #indigo mark{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+  
+#indigo {
+line-height:1;
+}
+
+#indigo article, #indigo aside, #indigo details, #indigo figcaption, #indigo figure, #indigo hgroup, #indigo menu, #indigo nav, #indigo section{
+display:block;
+}
+
+#indigo a{
+margin:0;
+padding:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+text-decoration:none;
+display: block;
+}
+
+#indigo img{
+vertical-align: top;
+}
+
+#indigo hr{
+display:block;
+height:2px;
+border:0;
+margin:0;
+padding:0;
+}
+
+#indigo input, #indigo textarea{
+width:100%;
+margin:0;
+padding:0;
+border:0;
+border-bottom:1px solid #757575;
+color:#3f51b5;
+font-family:'Montserrat';
+font-size:12px;
+vertical-align:top;
+border-radius:0;
+box-sizing:content-box;
+appearance:none;
+}
+
+::-moz-input-placeholder, ::-moz-textarea-placeholder{
+color:#3f51b5;
+}
+
+::-webkit-input-placeholder, ::-webkit-textarea-placeholder{
+color:#3f51b5;
+} 
